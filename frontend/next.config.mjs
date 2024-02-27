@@ -16,6 +16,10 @@ const withPWA = withPWAInit({
 // Define your Next.js configuration here
 const nextConfig = {
   // Your Next.js config options here
+  swcMinify: true,
+  compiler: {
+    styledComponents: true,
+  },
 };
 
 // Wrap your nextConfig with withPWA to apply the PWA configuration
