@@ -1,5 +1,5 @@
 "use client";
-import AppLayout from "@/components/layout/AppLayout";
+import AppLayout from "../components/layout/AppLayout";
 
 import Image from "next/image";
 
